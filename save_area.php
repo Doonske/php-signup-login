@@ -4,7 +4,7 @@ session_start();
 
 if (isset($_SESSION["user_id"])) {
     
-    $mysqli = require __DIR__ . "db/database.php";
+    $mysqli = require __DIR__ . "/db/database.php";
     
     $sql = "SELECT * FROM user
             WHERE kunden_id = {$_SESSION["user_id"]}";
