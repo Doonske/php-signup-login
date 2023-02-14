@@ -6,6 +6,7 @@ validation
             rule: "required"
         }
     ])
+    
     .addField("#email", [
         {
             rule: "required"
